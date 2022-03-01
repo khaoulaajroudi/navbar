@@ -1,0 +1,114 @@
+.Home {
+  display: flex;
+  align-items: center;
+  background: url(../images/wepike-2022122-234224.jpg) no-repeat;
+  width: 1737px;
+  height: 600px;
+  margin-top: 8px;
+  background-size: cover;
+  z-index: -1;
+}
+.content {
+  max-width: 50rem;
+  margin-top: -30px;
+  margin-left: 17px;
+}
+.content h3 {
+  width: 773px;
+  height: 156px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 82px;
+  color: #132039;
+  margin-top: -3px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+.content h3 span {
+  color: #a1a939;
+}
+
+.content p {
+  width: 523px;
+  height: 114px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 160%;
+  color: #464646;
+  margin-left: 40px;
+}
+.join {
+  width: 172px;
+  height: 64px;
+  background: #608540;
+  border-radius: 80px;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+.join span {
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+}
+.icons {
+  width: 300px;
+  margin-top: 40px;
+  margin-left: 130px;
+}
+.icons a {
+  background: #ecf0f3;
+  position: relative;
+  height: 40px;
+  width: 40px;
+  margin: 0 10px;
+  display: inline-flex;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: all 0.3s;
+  box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+}
+.icons a:hover:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  background: #ecf0f3;
+  box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1;
+}
+.icons a ion-icon {
+  position: relative;
+  z-index: 3;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+  line-height: 60px;
+  color: #464646;
+}
+.icons a:hover ion-icon {
+  transform: scale(0.9);
+}
+.icons a:hover.fb ion-icon {
+  color: #4267b2;
+}
+.icons a:hover.twitter ion-icon {
+  color: #1da1f2;
+}
+.icons a:hover.insta ion-icon {
+  color: #e1306c;
+}
+.icons a:hover.git ion-icon {
+  color: #333;
+}
+.icons a:hover.yt ion-icon {
+  color: #ff0000;
+}
